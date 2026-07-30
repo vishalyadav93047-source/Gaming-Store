@@ -1,0 +1,250 @@
+.products {
+    width: 95%;
+    max-width: 1450px;
+    margin: 70px auto;
+    padding: 30px;
+    background: #090b13;
+    border: 1px solid #1b2233;
+    border-radius: 18px;
+}
+
+/* ================= HEADER ================= */
+
+.products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.products-subtitle {
+    color: #7b5cff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.products-header h2 {
+    color: #fff;
+    margin-top: 8px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.products-btn {
+    background: #121826;
+    color: #fff;
+    border: 1px solid #2a3245;
+    padding: 12px 22px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: .3s;
+}
+
+.products-btn:hover {
+    background: #7b2cff;
+}
+
+/* ================= GRID ================= */
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+
+/* ================= CARD ================= */
+
+.product-card {
+    position: relative;
+    background: #111722;
+    border: 1px solid #232d42;
+    border-radius: 16px;
+    padding: 16px;
+    transition: .35s;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    border-color: #7b2cff;
+    box-shadow: 0 10px 35px rgba(123,44,255,.35);
+}
+
+/* Discount */
+
+.discount {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    background: #ff3d5a;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+/* Wishlist */
+
+.wishlist {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    background: #1b2233;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.wishlist:hover {
+    color: #ff3d5a;
+}
+
+/* ================= IMAGE ================= */
+
+.product-image {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.product-image img {
+    width: 100%;
+    max-width: 180px;
+    height: 160px;
+    object-fit: contain;
+    transition: .4s;
+}
+
+.product-card:hover img {
+    transform: scale(1.08);
+}
+
+/* ================= TITLE ================= */
+
+.product-card h3 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    min-height: 52px;
+    margin-bottom: 10px;
+}
+
+/* ================= RATING ================= */
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ffd43b;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.rating span {
+    color: #fff;
+    font-weight: 600;
+}
+
+.rating small {
+    color: #888;
+}
+
+/* ================= PRICE ================= */
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.new-price {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.old-price {
+    color: #777;
+    text-decoration: line-through;
+}
+
+/* ================= BUTTON ================= */
+
+.cart-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg,#2563eb,#7b2cff);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.cart-btn:hover {
+    transform: scale(1.03);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:1200px){
+
+.products-grid{
+    grid-template-columns:repeat(3,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.products-header{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:20px;
+}
+
+.products-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:500px){
+
+.products-grid{
+    grid-template-columns:1fr;
+}
+
+.products-header h2{
+    font-size:28px;
+}
+
+.product-image{
+    height:150px;
+}
+
+.product-image img{
+    height:140px;
+}
+
+}
