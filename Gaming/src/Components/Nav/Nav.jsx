@@ -1,4 +1,4 @@
-import "../Components/Nav.css"
+import "./Nav.css"
 import { FaSearch, FaHeart, FaShoppingCart, FaUser } from "react-icons/fa";
 import { IoGameController } from "react-icons/io5";
 

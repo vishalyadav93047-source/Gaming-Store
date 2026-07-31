@@ -1,4 +1,4 @@
-import "../Components/Hero.css";
+import "./Hero.css";
 import {
   FaTruck,
   FaShieldAlt,
@@ -6,7 +6,7 @@ import {
   FaArrowRight,
 } from "react-icons/fa";
 
-import gaming from "../assets/hero.png";
+import gaming from "../../assets/hero.png";
 
 export default function Hero() {
   return (
@@ -45,7 +45,7 @@ export default function Hero() {
             <FaTruck />
             <div>
               <h4>Free Shipping</h4>
-              <p>Orders over $99</p>
+              <p>Orders over ₹199</p>
             </div>
           </div>
 

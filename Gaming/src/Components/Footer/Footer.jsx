@@ -116,12 +116,12 @@ const Footer = () => {
 
           <div className="contact-item">
             <FaEnvelope />
-            <span>support@gamehub.com</span>
+            <span>vishal@gmail.com</span>
           </div>
 
           <div className="contact-item">
             <FaPhoneAlt />
-            <span>+91 98765 43210</span>
+            <span>+91 9304702949</span>
           </div>
 
           <div className="contact-item">

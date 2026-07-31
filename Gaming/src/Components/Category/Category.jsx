@@ -1,10 +1,10 @@
-import "../Components/Category.css";
+import "./Category.css";
 
 import {
   FaArrowRight
 } from "react-icons/fa";
 
-import gaming from "../assets/hero.png";
+import gaming from "../../assets/hero.png";
 // import laptop from "../assets/laptop.png";
 // import ps5 from "../assets/ps5.png";
 // import xbox from "../assets/xbox.png";
