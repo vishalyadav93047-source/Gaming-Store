@@ -160,28 +160,6 @@
 
 
 
-/* .review-dots {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 35px;
-}
-
-.review-dots span {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #555;
-    transition: .3s;
-} */
-
-/* .review-dots .active {
-    background: #7b2cff;
-    width: 28px;
-    border-radius: 30px;
-} */
-
-
 @media (max-width:1200px){
 
     .reviews-grid{
