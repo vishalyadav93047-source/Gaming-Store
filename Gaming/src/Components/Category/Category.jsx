@@ -5,14 +5,7 @@ import {
 } from "react-icons/fa";
 
 import gaming from "../../assets/hero.png";
-// import laptop from "../assets/laptop.png";
-// import ps5 from "../assets/ps5.png";
-// import xbox from "../assets/xbox.png";
-// import keyboard from "../assets/keyboard.png";
-// import mouse from "../assets/mouse.png";
-// import headset from "../assets/headset.png";
-// import controller from "../assets/controller.png";
-// import chair from "../assets/chair.png";
+
 
 const categories = [
   {
